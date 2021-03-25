@@ -110,7 +110,7 @@ elif platform.system().lower().find('darwin') >= 0:
    platfDefault = '/usr/local'
 
 # ----- mysql --------------------------------------------------------
-MySQL_version = "5.7.26"
+MySQL_version = "10.4.12"
 MySQL_path = platfDefault
 
 # overwrite with a patch set in the environment
@@ -131,9 +131,9 @@ if( my_mysql_path !=  None ):
 
 # ======================= PACKAGE VERSIONS ===================================
 
-Geant4_version =  "10.04.p03"
+Geant4_version =  "10.07.p01"
 
-CLHEP_version =  "2.3.4.3"
+CLHEP_version =  "2.4.4.1"
 
 ROOT_version = "6.22.08" # Don't be afraid to go on an adventure with the latest root
 
@@ -141,15 +141,15 @@ GSL_version = "2.6"
 
 Qt5_version = "v5.13.1"
 
-CMake_version = "3.15.5"
+CMake_version = "3.18.4"
 
 CED_version = "v01-09-03"
 
 SIO_version = "v00-01"
 
-Boost_version = "1.71.0"
+Boost_version = "1.75.0"
 
-Eigen_version = "3.3.7"
+Eigen_version = "3.3.9"
 
 # -------------------------------------------
 
@@ -157,9 +157,9 @@ CondDBMySQL_version = "CondDBMySQL_ILC-0-9-7"
 
 ILCUTIL_version = "v01-06-01"
 
-FastJet_version = "3.2.1"
+FastJet_version = "3.3.4"
 
-FastJetcontrib_version = "1.025"
+FastJetcontrib_version = "1.045"
 
 # xerces-c (needed by geant4 for building gdml support - required by mokka)
 XercesC_version = "v3.2.2"
